@@ -2,39 +2,25 @@
     CONSOLE APPLICATION : Kobyshev S(tools4brokers) Project Overview
 ========================================================================
 
-AppWizard has created this Kobyshev S(tools4brokers) application for you.
+Тестовое задание на должность "Программист С++"
 
-This file contains a summary of what you will find in each of the files that
-make up your Kobyshev S(tools4brokers) application.
+На компьютере существует папка с файлами. Файлов много, их имена заранее неизвестны, в каждом файле записано целое число (необходима дополнительная проверка на корректность содержимого файла). 
+Нужно написать консольное приложение win32, которое принимает на вход путь к папке и обрабатывает файлы следующим образом:
 
+Для каждого файла нужно выполнить следующий порядок действий:
+1. прочитать из файла число
+2. сразу же, после получения числа, нужно вывести его и имя файла в stdout, например: 
+hello.txt: 3
+test1: 1
+test2: 7
+3. после этого необходимо усыпить текущий поток на 1 секунду
 
-Kobyshev S(tools4brokers).vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+После обработки всех файлов необходимо сообщить пользователю сумму всех чисел.
 
-Kobyshev S(tools4brokers).vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+Дополнительные условия:
+- программу следует писать в IDE Microsoft Visual Studio (2010 или 2012, можно Express)
+- будет преимуществом использование библиотеки Boost
+- программа должна обрабатывать файлы параллельно
 
-Kobyshev S(tools4brokers).cpp
-    This is the main application source file.
+Готовое задание (в виде проекта Microsoft Visual Studio), а также вопросы по заданию (если что-то не ясно), следует присылать на ***
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Kobyshev S(tools4brokers).pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
