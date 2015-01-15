@@ -1,0 +1,1605 @@
+﻿Сборка начата 15.01.2015 19:38:03.
+     1>Проект "D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Kobyshev S(tools4brokers)\Kobyshev S(tools4brokers).vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Kobyshev S(tools4brokers).unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Kobyshev S(tools4brokers).pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Kobyshev S(tools4brokers).cpp"
+         Kobyshev S(tools4brokers).cpp
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Debug\Kobyshev S(tools4brokers).exe" /VERBOSE /NOLOGO /LIBPATH:C:\boost_1_57_0\libs kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Kobyshev S(tools4brokers).exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Debug\Kobyshev S(tools4brokers).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Debug\Kobyshev S(tools4brokers).lib" /MACHINE:X86 "Debug\Kobyshev S(tools4brokers).obj"
+         Debug\stdafx.obj
+         LINK : не найден или не выполнена сборка D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Debug\Kobyshev S(tools4brokers).exe при последней инкрементной компоновке; выполняется полная компоновка
+         
+         Запуск 1-го прохода
+         Обработан параметр /DEFAULTLIB:msvcprtd
+         Обработан параметр /DEFAULTLIB:libboost_thread-vc100-mt-gd-1_57.lib
+         Обработан параметр /DEFAULTLIB:libboost_date_time-vc100-mt-gd-1_57.lib
+         Обработан параметр /DEFAULTLIB:libboost_system-vc100-mt-gd-1_57.lib
+         Обработан параметр /DEFAULTLIB:libboost_chrono-vc100-mt-gd-1_57.lib
+         Обработан параметр /DEFAULTLIB:libboost_filesystem-vc100-mt-gd-1_57.lib
+         Обработан параметр /DEFAULTLIB:MSVCRTD
+         Обработан параметр /DEFAULTLIB:OLDNAMES
+         
+         Поиск библиотек
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+               Найден __imp__CreateSemaphoreA@16
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__ReleaseSemaphore@12
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CloseHandle@4
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__WaitForMultipleObjectsEx@20
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetEvent@4
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CreateEventA@16
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetSystemTimeAsFileTime@4
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__WaitForSingleObjectEx@12
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__HeapFree@12
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetProcessHeap@0
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetProcAddress@8
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetModuleHandleA@4
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetTickCount@0
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__DuplicateHandle@28
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetCurrentProcess@0
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__HeapAlloc@12
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __IMPORT_DESCRIPTOR_KERNEL32
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __NULL_IMPORT_DESCRIPTOR
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден KERNEL32_NULL_THUNK_DATA
+                 Имеются ссылки в kernel32.lib(KERNEL32.dll)
+                 Загружен kernel32.lib(KERNEL32.dll)
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Поиск d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprtd.lib:
+               Найден "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cout" (__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::endl(class std::basic_ostream<char,struct std::char_traits<char> > &)" (__imp_?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::operator>>(int &)" (__imp_??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAH@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: virtual __thiscall std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::_Lockit::~_Lockit(void)" (__imp_??1_Lockit@std@@QAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: virtual __thiscall std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: __thiscall std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc(void)" (?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::uflow(void)" (?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const *,__int64)" (?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setbuf(char *,__int64)" (?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sync(void)" (?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::imbue(class std::locale const &)" (?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (__imp_?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (__imp_?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *)" (__imp_?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (__imp_?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (__imp_?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *,char *)" (__imp_?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pbase(void)const " (__imp_?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (__imp_?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (__imp_?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (__imp_?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (__imp_?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int)" (__imp_?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) __int64 const std::_BADOFF" (__imp_?_BADOFF@std@@3_JB)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: virtual __thiscall std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::out(int &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void)" (__imp_?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::in(int &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?in@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (__imp_?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static unsigned int __cdecl std::numeric_limits<unsigned int>::max(void)" (__imp_?max@?$numeric_limits@I@std@@SAIXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static unsigned int __cdecl std::numeric_limits<unsigned int>::min(void)" (__imp_?min@?$numeric_limits@I@std@@SAIXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::locale __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (__imp_?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) struct _iobuf * __cdecl std::_Fiopen(char const *,int,int)" (__imp_?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::locale::facet * __thiscall std::locale::facet::_Decref(void)" (__imp_?_Decref@facet@locale@std@@QAEPAV123@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * *,char * *,int *,char * *,char * *,int *)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAPAD0PAH001@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::unshift(int &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: bool __thiscall std::codecvt_base::always_noconv(void)const " (__imp_?always_noconv@codecvt_base@std@@QBE_NXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static __int64 __cdecl std::numeric_limits<__int64>::max(void)" (__imp_?max@?$numeric_limits@_J@std@@SA_JXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static __int64 __cdecl std::numeric_limits<__int64>::min(void)" (__imp_?min@?$numeric_limits@_J@std@@SA_JXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (__imp_?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (__imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: int __thiscall std::ios_base::flags(void)const " (__imp_?flags@ios_base@std@@QBEHXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (__imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: bool __thiscall std::ios_base::good(void)const " (__imp_?good@ios_base@std@@QBE_NXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) bool __cdecl std::uncaught_exception(void)" (__imp_?uncaught_exception@std@@YA_NXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: void __thiscall std::locale::facet::_Incref(void)" (__imp_?_Incref@facet@locale@std@@QAEXXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<char,char,int>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::locale::id::operator unsigned int(void)" (__imp_??Bid@locale@std@@QAEIXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static class std::locale::id std::codecvt<char,char,int>::id" (__imp_?id@?$codecvt@DDH@std@@2V0locale@2@A)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "private: static void __cdecl std::locale::facet::_Facet_Register(class std::locale::facet *)" (?_Facet_Register@facet@locale@std@@CAXPAV123@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(locale0_implib.obj)
+               Найден "__declspec(dllimport) private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (__imp_?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден __IMPORT_DESCRIPTOR_MSVCP100D
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) void __cdecl operator delete(void *,struct std::_DebugHeapTag_t const &,char *,int)" (__imp_??3@YAXPAXABU_DebugHeapTag_t@std@@PADH@Z)
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (__imp_??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (__imp_?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден MSVCP100D_NULL_THUNK_DATA
+                 Имеются ссылки в msvcprtd.lib(MSVCP100D.dll)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+             Поиск C:\boost_1_57_0\stage\lib\libboost_thread-vc100-mt-gd-1_57.lib:
+               Найден "public: bool __thiscall boost::thread::joinable(void)const " (?joinable@thread@boost@@QBE_NXZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+         Обработан параметр /DEFAULTLIB:uuid.lib
+               Найден "void __cdecl boost::tss_cleanup_implemented(void)" (?tss_cleanup_implemented@boost@@YAXXZ)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен libboost_thread-vc100-mt-gd-1_57.lib(tss_pe.obj)
+             Поиск C:\boost_1_57_0\stage\lib\libboost_date_time-vc100-mt-gd-1_57.lib:
+             Поиск C:\boost_1_57_0\stage\lib\libboost_system-vc100-mt-gd-1_57.lib:
+               Найден "class boost::system::error_category const & __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAABVerror_category@12@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+             Поиск C:\boost_1_57_0\stage\lib\libboost_chrono-vc100-mt-gd-1_57.lib:
+               Найден "public: static class boost::chrono::time_point<class boost::chrono::steady_clock,class boost::chrono::duration<__int64,class boost::ratio<1,1000000000> > > __cdecl boost::chrono::steady_clock::now(void)" (?now@steady_clock@chrono@boost@@SA?AV?$time_point@Vsteady_clock@chrono@boost@@V?$duration@_JV?$ratio@$00$0DLJKMKAA@@boost@@@23@@23@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+             Поиск C:\boost_1_57_0\stage\lib\libboost_filesystem-vc100-mt-gd-1_57.lib:
+               Найден "void __cdecl boost::filesystem::path_traits::convert(wchar_t const *,wchar_t const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::codecvt<wchar_t,char,int> const &)" (?convert@path_traits@filesystem@boost@@YAXPB_W0AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$codecvt@_WDH@5@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+               Найден "public: static class std::codecvt<wchar_t,char,int> const & __cdecl boost::filesystem::path::codecvt(void)" (?codecvt@path@filesystem@boost@@SAABV?$codecvt@_WDH@std@@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+               Найден "class boost::filesystem::file_status __cdecl boost::filesystem::detail::status(class boost::filesystem::path const &,class boost::system::error_code *)" (?status@detail@filesystem@boost@@YA?AVfile_status@23@ABVpath@23@PAVerror_code@system@3@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+               Найден "class boost::system::error_category const & __cdecl boost::filesystem::codecvt_error_category(void)" (?codecvt_error_category@filesystem@boost@@YAABVerror_category@system@2@XZ)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Загружен libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+               Найден "protected: virtual int __thiscall windows_file_codecvt::do_in(int &,char const *,char const *,char const * &,wchar_t *,wchar_t *,wchar_t * &)const " (?do_in@windows_file_codecvt@@MBEHAAHPBD1AAPBDPA_W3AAPA_W@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен libboost_filesystem-vc100-mt-gd-1_57.lib(windows_file_codecvt.obj)
+             Поиск d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRTD.lib:
+               Найден "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(ehvecdtr.obj)
+               Найден __RTC_CheckEsp
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(_stack_.obj)
+               Найден __RTC_Shutdown
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(_init_.obj)
+               Найден "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___security_cookie
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в MSVCRTD.lib(ehvecdtr.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен MSVCRTD.lib(gs_cookie.obj)
+               Найден ___CxxFrameHandler3
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден @__security_check_cookie@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен MSVCRTD.lib(secchk.obj)
+               Найден "const type_info::`vftable'" (??_7type_info@@6B@)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(ti_inst.obj)
+               Найден "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "__declspec(dllimport) public: virtual char const * __thiscall std::exception::what(void)const " (__imp_?what@exception@std@@UBEPBDXZ)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___wassert
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден _strlen
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __allmul
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(llmul.obj)
+               Найден __alldiv
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(lldiv.obj)
+               Найден __imp___gmtime64
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден _memcpy
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___invalid_parameter
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___CrtDbgReportW
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___lock_file
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___unlock_file
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__fwrite
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__fputc
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__ungetc
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__memcpy_s
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__fgetc
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__fgetpos
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___fseeki64
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__fsetpos
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__setvbuf
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__fflush
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__memmove
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__memchr
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__wcslen
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __aullrem
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(ullrem.obj)
+               Найден __aulldiv
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(ulldiv.obj)
+               Найден __imp__fclose
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден _memset
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __CxxThrowException@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__free
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __purecall
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::bad_cast::bad_cast(char const *)" (__imp_??0bad_cast@std@@QAE@PBD@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __allshl
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(llshl.obj)
+               Найден "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &,int)" (__imp_??0exception@std@@QAE@ABQBDH@Z)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден _atexit
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+                 Имеются ссылки в Kobyshev S(tools4brokers).obj
+                 Имеются ссылки в msvcprtd.lib(locale0_implib.obj)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(tss_pe.obj)
+                 Загружен MSVCRTD.lib(atonexit.obj)
+               Найден _wmainCRTStartup
+                 Загружен MSVCRTD.lib(wcrtexe.obj)
+               Найден __imp___beginthreadex
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __allrem
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен MSVCRTD.lib(llrem.obj)
+               Найден __tls_used
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(tss_pe.obj)
+                 Загружен MSVCRTD.lib(tlssup.obj)
+               Найден __imp__strerror
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __fltused
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(dllsupp.obj)
+               Найден __ftol2
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен MSVCRTD.lib(ftol2.obj)
+               Найден "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___stricmp
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __allshr
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(llshr.obj)
+               Найден __chkstk
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен MSVCRTD.lib(chkstk.obj)
+               Найден __IMPORT_DESCRIPTOR_MSVCR100D
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __except_handler4
+                 Имеются ссылки в MSVCRTD.lib(ehvecdtr.obj)
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(chandler4gs.obj)
+               Найден "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+                 Имеются ссылки в MSVCRTD.lib(ehvecdtr.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+                 Имеются ссылки в MSVCRTD.lib(_stack_.obj)
+                 Загружен MSVCRTD.lib(_error_.obj)
+               Найден __RTC_SetErrorFuncW
+                 Имеются ссылки в MSVCRTD.lib(_init_.obj)
+                 Загружен MSVCRTD.lib(_userapi_.obj)
+               Найден __CRT_RTC_INITW
+                 Имеются ссылки в MSVCRTD.lib(_init_.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___report_gsfailure
+                 Имеются ссылки в MSVCRTD.lib(secchk.obj)
+                 Загружен MSVCRTD.lib(gs_report.obj)
+               Найден "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+                 Имеются ссылки в MSVCRTD.lib(ti_inst.obj)
+                 Загружен MSVCRTD.lib(typeinfo_dtor_32.obj)
+               Найден __unlock
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___dllonexit
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __lock
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___onexit
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___CxxSetUnhandledExceptionFilter
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(unhandld.obj)
+               Найден __imp___configthreadlocale
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___globallocalestatus
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(xthdloc.obj)
+               Найден __setdefaultprecision
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(fp8.obj)
+               Найден __imp____setusermatherr
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __matherr
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(merr.obj)
+               Найден __wsetargv
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(wdllargv.obj)
+               Найден __RTC_Initialize
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(_initsect_.obj)
+               Найден __commode
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(xncommod.obj)
+               Найден __imp___commode
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __fmode
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(xtxtmode.obj)
+               Найден __imp___fmode
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp____set_app_type
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __amsg_exit
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp____wgetmainargs
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __dowildcard
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(wildcard.obj)
+               Найден __newmode
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(_newmode.obj)
+               Найден ___security_init_cookie
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(gs_support.obj)
+               Найден __imp___exit
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __XcptFilter
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___cexit
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp__exit
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp____winitenv
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __imp___CrtSetCheckCount
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __IsNonwritableInCurrentImage
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(pesect.obj)
+               Найден __initterm
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___xc_a
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(cinitexe.obj)
+         Обработан параметр /DEFAULTLIB:kernel32.lib
+          Обработан /DISALLOWLIB:libcmt.lib
+          Обработан /DISALLOWLIB:libcmtd.lib
+          Обработан /DISALLOWLIB:msvcrt.lib
+               Найден __initterm_e
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден ___native_startup_state
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен MSVCRTD.lib(natstart.obj)
+               Найден ___sse2_available
+                 Имеются ссылки в MSVCRTD.lib(ftol2.obj)
+                 Загружен MSVCRTD.lib(cpu_disp.obj)
+               Найден MSVCR100D_NULL_THUNK_DATA
+                 Имеются ссылки в MSVCRTD.lib(MSVCR100D.dll)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __except_handler4_common
+                 Имеются ссылки в MSVCRTD.lib(chandler4gs.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Загружен MSVCRTD.lib(_pdblkup_.obj)
+               Найден __crt_debugger_hook
+                 Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден "public: void __thiscall type_info::_type_info_dtor_internal_method(void)" (?_type_info_dtor_internal_method@type_info@@QAEXXZ)
+                 Имеются ссылки в MSVCRTD.lib(typeinfo_dtor_32.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __controlfp_s
+                 Имеются ссылки в MSVCRTD.lib(fp8.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __invoke_watson
+                 Имеются ссылки в MSVCRTD.lib(fp8.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __wmakepath_s
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден _wcscpy_s
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+               Найден __wsplitpath_s
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен MSVCRTD.lib(MSVCR100D.dll)
+             Поиск d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+               Найден __imp__TlsAlloc@0
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__TlsFree@4
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__TlsSetValue@8
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetCurrentProcessId@0
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__ResetEvent@4
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__OpenEventA@12
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__TlsGetValue@4
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__ResumeThread@4
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetSystemInfo@4
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetLastError@0
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetLogicalProcessorInformation@8
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SystemTimeToFileTime@8
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetWaitableTimer@24
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CreateWaitableTimerA@12
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__Sleep@4
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetCurrentThreadId@0
+                 Имеются ссылки в libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+                 Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__FormatMessageA@28
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__LocalFree@4
+                 Имеются ссылки в libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__QueryPerformanceFrequency@4
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__QueryPerformanceCounter@4
+                 Имеются ссылки в libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+                 Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__RemoveDirectoryW@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__DeleteFileW@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CreateFileW@28
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__DeviceIoControl@32
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetFileAttributesW@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetEndOfFile@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetFilePointerEx@20
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CreateDirectoryExW@12
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CopyFileW@12
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__CreateDirectoryW@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetCurrentDirectoryW@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetCurrentDirectoryW@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetFileInformationByHandle@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetFileAttributesExW@12
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetFileTime@16
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetFileTime@16
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetFileAttributesW@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__MoveFileExW@12
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetDiskFreeSpaceExW@16
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetLastError@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetTempPathW@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetFullPathNameW@16
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__FindFirstFileW@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__FindNextFileW@8
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__FindClose@4
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__MultiByteToWideChar@24
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(windows_file_codecvt.obj)
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__AreFileApisANSI@0
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(windows_file_codecvt.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__WideCharToMultiByte@32
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(windows_file_codecvt.obj)
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__EncodePointer@4
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__DecodePointer@4
+                 Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__InterlockedExchange@8
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__InterlockedCompareExchange@12
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__HeapSetInformation@16
+                 Имеются ссылки в MSVCRTD.lib(wcrtexe.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__IsDebuggerPresent@0
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__RaiseException@16
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__lstrlenA@4
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__LoadLibraryW@4
+                 Имеются ссылки в MSVCRTD.lib(_error_.obj)
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__TerminateProcess@8
+                 Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__UnhandledExceptionFilter@4
+                 Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__SetUnhandledExceptionFilter@4
+                 Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+                 Имеются ссылки в MSVCRTD.lib(unhandld.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__IsProcessorFeaturePresent@4
+                 Имеются ссылки в MSVCRTD.lib(cpu_disp.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetModuleFileNameW@12
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__VirtualQuery@12
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__GetModuleHandleW@4
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+               Найден __imp__FreeLibrary@4
+                 Имеются ссылки в MSVCRTD.lib(_pdblkup_.obj)
+                 Загружен kernel32.lib(KERNEL32.dll)
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Поиск d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprtd.lib:
+               Найден "__declspec(dllimport) public: int __thiscall std::codecvt<wchar_t,char,int>::in(int &,char const *,char const *,char const * &,wchar_t *,wchar_t *,wchar_t * &)const " (__imp_?in@?$codecvt@_WDH@std@@QBEHAAHPBD1AAPBDPA_W3AAPA_W@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: int __thiscall std::codecvt<wchar_t,char,int>::out(int &,wchar_t const *,wchar_t const *,wchar_t const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@_WDH@std@@QBEHAAHPB_W1AAPB_WPAD3AAPAD@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static void __cdecl std::locale::facet::operator delete(void *)" (__imp_??3facet@locale@std@@SAXPAX@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static void * __cdecl std::locale::facet::operator new(unsigned int)" (__imp_??2facet@locale@std@@SAPAXI@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) private: static class std::locale::_Locimp * __cdecl std::locale::_Init(void)" (__imp_?_Init@locale@std@@CAPAV_Locimp@12@XZ)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: __thiscall std::codecvt<wchar_t,char,int>::codecvt<wchar_t,char,int>(unsigned int)" (__imp_??0?$codecvt@_WDH@std@@QAE@I@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "protected: virtual int __thiscall std::codecvt<wchar_t,char,int>::do_length(int const &,char const *,char const *,unsigned int)const " (?do_length@?$codecvt@_WDH@std@@MBEHABHPBD1I@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: virtual __thiscall std::codecvt<wchar_t,char,int>::~codecvt<wchar_t,char,int>(void)" (__imp_??1?$codecvt@_WDH@std@@MAE@XZ)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static void __cdecl std::locale::facet::operator delete(void *,struct std::_DebugHeapTag_t const &,char *,int)" (__imp_??3facet@locale@std@@SAXPAXABU_DebugHeapTag_t@2@PADH@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (__imp_??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<wchar_t,char,int>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@_WDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) private: void __thiscall std::locale::_Locimp::_Addfac(class std::locale::facet *,unsigned int)" (__imp_?_Addfac@_Locimp@locale@std@@AAEXPAVfacet@23@I@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static class std::locale::id std::codecvt<wchar_t,char,int>::id" (__imp_?id@?$codecvt@_WDH@std@@2V0locale@2@A)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) private: __thiscall std::locale::_Locimp::_Locimp(class std::locale::_Locimp const &)" (__imp_??0_Locimp@locale@std@@AAE@ABV012@@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) public: static void * __cdecl std::locale::facet::operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (__imp_??2facet@locale@std@@SAPAXIABU_DebugHeapTag_t@2@PADH@Z)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+               Найден "__declspec(dllimport) protected: virtual __thiscall std::locale::_Locimp::~_Locimp(void)" (__imp_??1_Locimp@locale@std@@MAE@XZ)
+                 Имеются ссылки в libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+                 Загружен msvcprtd.lib(MSVCP100D.dll)
+             Поиск C:\boost_1_57_0\stage\lib\libboost_thread-vc100-mt-gd-1_57.lib:
+             Поиск C:\boost_1_57_0\stage\lib\libboost_date_time-vc100-mt-gd-1_57.lib:
+             Поиск C:\boost_1_57_0\stage\lib\libboost_system-vc100-mt-gd-1_57.lib:
+             Поиск C:\boost_1_57_0\stage\lib\libboost_chrono-vc100-mt-gd-1_57.lib:
+             Поиск C:\boost_1_57_0\stage\lib\libboost_filesystem-vc100-mt-gd-1_57.lib:
+         
+         Поиск библиотек завершен
+         
+         1-ый проход завершен
+         
+         Создание не-SAFESEH образа.
+         Запуск 2-го прохода
+              stdafx.obj
+              Kobyshev S(tools4brokers).obj
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              msvcprtd.lib(locale0_implib.obj)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              msvcprtd.lib(MSVCP100D.dll)
+              libboost_thread-vc100-mt-gd-1_57.lib(thread.obj)
+              libboost_thread-vc100-mt-gd-1_57.lib(tss_pe.obj)
+              libboost_system-vc100-mt-gd-1_57.lib(error_code.obj)
+              libboost_chrono-vc100-mt-gd-1_57.lib(chrono.obj)
+              libboost_filesystem-vc100-mt-gd-1_57.lib(codecvt_error_category.obj)
+              libboost_filesystem-vc100-mt-gd-1_57.lib(operations.obj)
+              libboost_filesystem-vc100-mt-gd-1_57.lib(path.obj)
+              libboost_filesystem-vc100-mt-gd-1_57.lib(path_traits.obj)
+              libboost_filesystem-vc100-mt-gd-1_57.lib(windows_file_codecvt.obj)
+              MSVCRTD.lib(ehvecdtr.obj)
+              MSVCRTD.lib(unhandld.obj)
+              MSVCRTD.lib(atonexit.obj)
+              MSVCRTD.lib(cinitexe.obj)
+              MSVCRTD.lib(gs_cookie.obj)
+              MSVCRTD.lib(gs_report.obj)
+              MSVCRTD.lib(gs_support.obj)
+              MSVCRTD.lib(merr.obj)
+              MSVCRTD.lib(natstart.obj)
+              MSVCRTD.lib(pesect.obj)
+              MSVCRTD.lib(ti_inst.obj)
+              MSVCRTD.lib(wcrtexe.obj)
+              MSVCRTD.lib(wdllargv.obj)
+              MSVCRTD.lib(wildcard.obj)
+              MSVCRTD.lib(dllsupp.obj)
+              MSVCRTD.lib(lldiv.obj)
+              MSVCRTD.lib(llmul.obj)
+              MSVCRTD.lib(llrem.obj)
+              MSVCRTD.lib(llshl.obj)
+              MSVCRTD.lib(llshr.obj)
+              MSVCRTD.lib(ulldiv.obj)
+              MSVCRTD.lib(ullrem.obj)
+              MSVCRTD.lib(chandler4gs.obj)
+              MSVCRTD.lib(cpu_disp.obj)
+              MSVCRTD.lib(fp8.obj)
+              MSVCRTD.lib(ftol2.obj)
+              MSVCRTD.lib(secchk.obj)
+              MSVCRTD.lib(_newmode.obj)
+              MSVCRTD.lib(xncommod.obj)
+              MSVCRTD.lib(tlssup.obj)
+              MSVCRTD.lib(xtxtmode.obj)
+              MSVCRTD.lib(xthdloc.obj)
+              MSVCRTD.lib(chkstk.obj)
+              MSVCRTD.lib(typeinfo_dtor_32.obj)
+              MSVCRTD.lib(_userapi_.obj)
+              MSVCRTD.lib(_stack_.obj)
+              MSVCRTD.lib(_pdblkup_.obj)
+              MSVCRTD.lib(_initsect_.obj)
+              MSVCRTD.lib(_init_.obj)
+              MSVCRTD.lib(_error_.obj)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+              MSVCRTD.lib(MSVCR100D.dll)
+         2-ой проход завершен
+         Kobyshev S(tools4brokers).vcxproj -> D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Debug\Kobyshev S(tools4brokers).exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Debug\Kobyshev S(tools4brokers).exe;#1" /manifest "Debug\Kobyshev S(tools4brokers).exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\Kobyshev S(tools4brokers).unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Kobyshev S(tools4brokers).lastbuildstate".
+     1>Построение проекта "D:\Drak_kin\Documents\Visual Studio 2010\Projects\Kobyshev S(tools4brokers)\Kobyshev S(tools4brokers)\Kobyshev S(tools4brokers).vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.67
